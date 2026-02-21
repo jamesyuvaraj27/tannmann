@@ -8,12 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Test route
 app.get("/", (req, res) => {
   res.send("Server is running");
 });
 
-// POST route
 app.post("/users", async (req, res) => {
   try {
     const { name, phone, email } = req.body;

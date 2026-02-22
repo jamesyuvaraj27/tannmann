@@ -155,3 +155,102 @@ button:hover {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+/* ============================= */
+/* 📱 Small Mobile (up to 480px) */
+/* ============================= */
+@media (max-width: 480px) {
+
+  .container {
+    width: 95%;
+    padding: 35px 20px;
+    border-radius: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  input {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+
+/* ============================= */
+/* 📱 Large Mobile (481px–768px) */
+/* ============================= */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .container {
+    width: 85%;
+    padding: 40px 25px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
+
+
+/* ============================= */
+/* 📱 Tablet (769px–1024px) */
+/* ============================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .container {
+    width: 60%;
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+}
+
+
+/* ============================= */
+/* 💻 14-inch Laptop (1366px) */
+/* ============================= */
+@media (min-width: 1280px) and (max-width: 1366px) {
+
+  .container {
+    width: 420px;
+  }
+}
+
+
+/* ============================= */
+/* 💻 15-inch Laptop (1440px) */
+/* ============================= */
+@media (min-width: 1367px) and (max-width: 1440px) {
+
+  .container {
+    width: 440px;
+  }
+}
+
+
+/* ============================= */
+/* 💻 16-inch Laptop (1536px+) */
+/* ============================= */
+@media (min-width: 1441px) {
+
+  .container {
+    width: 460px;
+  }
+}
